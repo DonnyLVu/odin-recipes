@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(229, 229, 194);
+  display: flex;
+}
+
+h1 {
+  font-family: "VeganStyle", "Times New Roman", Times, serif;
+  font-size: 3em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* recipe cards start */
+/* Insert recipe-card-items later */
+
+.recipe-card-container {
+  flex-direction: row;
+  height: auto;
+  width: 25%;
+  outline: 5px dashed #bf7a27;
+}
+.recipe-card-item {
+  background-color: beige;
+  cursor: pointer;
+  max-height: contain;
+  max-width: contain;
+  object-fit: contain;
+}
+.card-images {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Page Name Font */
+@font-face {
+  font-family: "VeganStyle";
+  src: url(./assets/fonts/VeganStylePersonalUse-5Y58.ttf);
+}
